@@ -1,0 +1,261 @@
+body
+{
+	font-family:Microsoft JhengHei;
+	background-image: url(../images/bg.jpg); 
+	background-size: 100% 100%;
+
+}
+header
+{
+	background-color:#DDDDDD;
+	height:140px;
+	width: 100%;
+}
+.logo
+{
+	float: right;
+	height:100%;
+	width: 30%;
+	padding: 15px;
+}
+nav
+{
+	position: absolute;
+	left: 0px;
+	width: 200px;
+	background-color: #444444;
+	height:285px;
+	width: 16%;
+	color: white;
+	font-size: 20px;
+	padding: 5px 12px;
+}
+.community
+{
+	width: 100%;
+}
+.communityimg
+{
+	width:11%;
+}
+.banner
+{
+	float:right;
+	width: 50%;
+	height: 440px;
+}
+.motto
+{
+	position: relative;
+	top:14em;
+	left:10em;
+	width:30%;
+	height: 100px;
+	background-color: #444444;	
+	color:white;
+	font-size: 30px;
+	text-align: center;
+	padding-top:30px;
+}
+.bodyarea
+{
+	width:80%;
+	height:12em;
+	margin: 50px auto;
+	border: 3px #9C9C9C solid;
+	border-radius:5em;
+	position: relative;
+	top:22em;
+	font-size: 20px;
+	background-color: #DDDDDD;
+}
+.headline
+{
+	width:150px;
+	height: 50px;
+	background-color: #444444;
+	color: white;
+	border-radius:2em;
+	position: relative;
+	top:-1em;
+	text-align: center;
+	padding: 10px;
+}
+.headlinelife
+{
+	top:-3em;
+	left:-1.5em;
+}
+.INTRODUCEimg
+{
+	float:left;
+	position: relative;
+	top:-1.5em;
+	width:180px;
+	margin: 20px;
+	border-radius:999em;
+}
+.FAMILYimg
+{
+	float:left;
+	position: relative;
+	top:-1.5em;
+	width:150px;
+	margin:40px 13px;
+	padding:5px;
+	border-radius:999em;
+	opacity: 0.5;
+}
+.FAMILYimg:hover
+{
+	opacity: 1;
+}
+.element
+{
+	display:none;
+}
+.FAMILY:hover .element
+{
+	display:block;
+	position: relative;
+	top:8em;
+	left:-7em;
+	z-index: 1;
+}
+.FAMILYcandy:hover .element
+{
+	display:block;
+	position: relative;
+	top:-4em;
+	left:1em;
+	z-index: 1;
+}
+.EDUCATIONimg
+{
+	float:left;
+	position: relative;
+	top:-1.5em;
+	width:190px;
+	margin:20px 32px;
+	padding:5px;
+	border-radius:999em;
+	opacity: 0.5;
+}
+.EDUCATIONimg:hover
+{
+	opacity: 1;
+}
+.intword
+{
+	position:relative;
+	left:10em;
+	font-weight:bold;
+	font-size: 20px;
+}
+.INTEREST
+ {
+ 	position:relative;
+	top:-1.5em;
+ }
+.INTEREST img 
+{
+	float:left;
+	width:180px;
+	margin:20px 32px;
+	padding:5px;
+	border-radius:999em;
+  	position:absolute;
+  	transition: opacity 1s ease-in-out;  /* CSS3淡出淡入效果,1秒 */
+}
+.INTEREST img:nth-of-type(2):hover
+{
+  opacity:0; /*滑鼠滑入時，透明度變0*/
+}
+.intcook
+{
+	left:18em;
+	top:-3em;
+}
+.intread
+{
+	left:36em;
+	top:-4.5em;
+}
+.threeimg
+{
+	float:left;
+	position:relative;
+	top:-1.5em;
+	width:190px;
+	margin:20px 70px;
+	padding:5px;
+}
+.SOCIETYimg
+{
+	float:left;
+	position:relative;
+	top:-1.5em;
+	width:180px;
+	margin:20px 70px;
+	padding:5px;
+	border-radius:999em;
+}
+.SOCIETY:hover .element
+{
+	display:block;
+	position: relative;
+	top:-1em;
+	left:-14em;
+	z-index: 1;
+}
+.AIRMS:hover .element
+{
+	display:block;
+	position: relative;
+	top:0em;
+	left:-4em;
+	z-index: 1;
+}
+.JOBS
+{
+	float: left;
+	font-size: 20px;
+	padding:30px 70px;
+}
+.bodyarealife
+{
+	width:80%;
+	height:55em;
+	margin: 50px auto;
+	border: 3px #9C9C9C solid;
+	border-radius:5em;
+	position: relative;
+	top:22em;
+	font-size: 20px;
+	padding: 30px;
+	background-color: #DDDDDD;
+}
+.LIFEimg
+{
+	float:left;
+	width:40%;
+	height: 300px;
+	margin:8px 50px;
+	border-radius:10px;
+	opacity: 0.5;
+}
+.LIFEimg:hover
+{
+	opacity: 1;
+}
+.foot
+{
+	position: relative;
+	top:22em;
+	background-color: #444444;
+	height:60px;
+	width: 100%;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+}
